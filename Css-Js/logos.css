@@ -1,0 +1,56 @@
+/* logos */
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.logos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    font-size: 130px;
+    height: 225px;
+    margin: 50px;
+    color: #545454;
+    transition: .5s;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #24282bae, #3940488b);
+    
+}
+
+.logos a.html:hover {
+    color: var(--color-3);
+    transform: scale(1.1);
+    transform: translateY(-25px);
+    transition: .3,5s;
+    
+    background: linear-gradient(145deg, #30363c, #04db4f16);
+    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+}
+
+.logos a.css:hover {
+    color: var(--color-3);
+    transform: scale(1.1);
+    transform: translateY(-25px);
+    transition: .3, 5s;
+    
+    background: linear-gradient(145deg, #30363c, #04db4f16);
+    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+}
+
+.logos a.js:hover {
+    color: var(--color-3);
+    transform: scale(1.1);
+    transform: translateY(-25px);
+    transition: .3, 5s;
+    
+    background: linear-gradient(145deg, #30363c, #04db4f16);
+    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+}
+
+/* fin logos*/

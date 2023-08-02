@@ -1,0 +1,10 @@
+.calendly{
+    display: flex;
+    align-items: center;
+    
+}
+.calendly .calendly-img img :hover{
+    transform: translateY(-20px);
+   box-shadow: -5px -5px 11px #04db4f91, 5px 5px 11px #04db4f91;
+   transition: all .3s;
+}

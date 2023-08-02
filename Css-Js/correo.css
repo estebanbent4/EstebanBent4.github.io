@@ -1,0 +1,44 @@
+.correo{
+    display: flex;
+    justify-content: center;
+}
+
+.correo form input,textarea{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(145deg, #24282bae, #3940488b);
+    outline:0;
+    color: var(--color-3);
+    text-transform: uppercase, lowercase;
+    transition: .5s;
+}
+
+
+
+
+
+
+.correo input:focus{
+    transition: .1s;
+    border-bottom: 3px solid var(--color-3);
+}
+
+.correo textarea:focus{
+    transition: .1s;
+    border-bottom: 3px solid var(--color-3);
+}
+
+
+
+
+.correo .Enviar:hover{
+    transform: translateY(10px);
+cursor: pointer;
+transition: 0.5s;
+box-shadow: 5px 5px 11px #04db4f91, -5px -5px 11px #04db4f91;
+}

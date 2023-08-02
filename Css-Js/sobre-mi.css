@@ -1,0 +1,67 @@
+/*subtitulos general*/
+
+.Subtitulos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 60px;
+    color: #04db4f;
+}
+
+/*subtitulos general*/
+
+/*Sobre mi*/
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen p {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 25px;
+    filter: blur(8px);
+    color: var(--color-2);
+    transition: .3s;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.imagen p:hover {
+    transform: translateY(-30px);
+    filter: blur(0);
+    transition: .5s;
+    border-radius: 50px;
+
+    background: linear-gradient(145deg, #30363c, #00ff5919);
+    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #2e343a;
+}
+
+.imagen img {
+    width: 400px;
+    height: 500px;
+    filter: blur(8px);
+    margin: 100px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.imagen img:hover {
+    transform: translateY(-30px);
+    filter: blur(0);
+    transition: .5s;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #30363c, #00ff595a);
+    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #2e343a;
+
+}
+
+/* fin de sobre mi*/

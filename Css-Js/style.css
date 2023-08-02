@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-1);
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*para que los links tengan un scroll suave*/
+
+:root {
+    --color-1: #1f2326;
+    --color-2: #b1b1b1;
+    --color-3: #04db4f;
+    --color-4: #F3D34A;
+    --color-5: #093b32;
+    --color-html: #e22e05;
+    --color-css: #0099ff;
+    --color-js: #dada00;
+    --color-node-js: #3bc70c;
+--fuente-1: font-family:'IBM Plex Mono', monospace;
+}
+
+/* font-family: 'IBM Plex Mono', monospace; */

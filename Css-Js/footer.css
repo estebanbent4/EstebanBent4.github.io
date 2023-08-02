@@ -1,0 +1,40 @@
+/* Comienzo de footer*/
+
+.navbar-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px ;
+}
+
+.navbar-footer a{
+    padding: 20px;
+    font-size: 70px;
+    color: #545454;
+transition: .5s;
+border-radius:20px ;
+background: linear-gradient(145deg, #24282bae, #3940488b);
+    
+}
+
+.navbar-footer a.Git-hub,
+.navbar-footer a.LinkedIn{
+    margin: 30px;
+}
+
+
+
+.navbar-footer a.LinkedIn:hover{
+    color: #04db4f;
+    box-shadow: 5px 5px 11px #04db4f91, -5px -5px 11px #04db4f91;
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.navbar-footer a.Git-hub:hover{
+    color: #04db4f;
+    box-shadow: -5px -5px 11px #04db4f91, 5px 5px 11px #04db4f91;
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+/* Fin de footer*/

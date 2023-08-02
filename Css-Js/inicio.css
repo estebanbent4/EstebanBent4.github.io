@@ -1,0 +1,69 @@
+
+.inicio {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada {
+
+
+    padding-top: 150px;
+}
+
+#nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+    color: var(--color-3);
+
+}
+
+#parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-2);
+    font-family: 'IBM Plex Mono', monospace;
+    transition: .5s;
+
+}
+
+#parrafo:hover {
+    color: var(--color-3);
+    transition: .5s;
+
+}
+
+.Escritura {
+    font-size: 35px;
+    display: block;
+    font-weight: 900;
+    white-space: nowrap;
+    border-right: 4px solid #D3D0CB;
+    width: 30ch;
+    animation: typing 3s infinite steps(30), blink .5s infinite step-start alternate;
+    animation-direction: alternate;
+    overflow: hidden;
+}
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*animaciones de la portada */
